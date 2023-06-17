@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.aplication"},{"l":"com.command"},{"l":"com.commandInterfaces"},{"l":"com.exceptions"},{"l":"com.inputUtils"},{"l":"com.models"},{"l":"com.models.helpers"},{"l":"com.serializers"},{"l":"com.wrappers"}];updateSearchResults();
