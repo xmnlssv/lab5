@@ -59,48 +59,48 @@
     private Person author; //Поле может быть null
 }
 
-public class Coordinates {
+  public class Coordinates {
     private Long x; //Поле не может быть null
     private long y;
-}
-public class Person {
+  }
+  public class Person {
     private String name; //Поле не может быть null, Строка не может быть пустой
     private String passportID; //Длина строки должна быть не меньше 6, Длина строки не должна быть больше 37, Значение этого поля должно быть уникальным, Поле может быть null
     private Color eyeColor; //Поле не может быть null
     private Color hairColor; //Поле может быть null
     private Country nationality; //Поле не может быть null
     private Location location; //Поле может быть null
-}
-public class Location {
-    private double x;
-    private Float y; //Поле не может быть null
-    private long z;
-}
-public enum Difficulty {
-    EASY,
-    NORMAL,
-    IMPOSSIBLE,
-    INSANE;
-}
-public enum Color {
-    BLUE,
-    YELLOW,
-    ORANGE,
-    WHITE;
-}
-public enum Color {
-    GREEN,
-    BLUE,
-    YELLOW,
-    ORANGE,
-    WHITE;
-}
-public enum Country {
-    UNITED_KINGDOM,
-    FRANCE,
-    INDIA,
-    SOUTH_KOREA;
-}
+  }
+  public class Location {
+      private double x;
+      private Float y; //Поле не может быть null
+      private long z;
+  }
+  public enum Difficulty {
+      EASY,
+      NORMAL,
+      IMPOSSIBLE,
+      INSANE;
+  }
+  public enum Color {
+      BLUE,
+      YELLOW,
+      ORANGE,
+      WHITE;
+  }
+  public enum Color {
+      GREEN,
+      BLUE,
+      YELLOW,
+      ORANGE,
+      WHITE;
+  }
+    public enum Country {
+        UNITED_KINGDOM,
+      FRANCE,
+      INDIA,
+      SOUTH_KOREA;
+  }
 ```
 
 ### Отчёт по работе должен содержать:
